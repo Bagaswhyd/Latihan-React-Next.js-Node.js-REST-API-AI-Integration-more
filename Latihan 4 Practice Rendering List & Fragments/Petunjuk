@@ -1,0 +1,31 @@
+Practice Rendering List & Fragments
+> Objective_1: Display cards with basketball players with all information about them (full name, position, league, career history)
+
+App.js
+
+1 ) Display the Card component for every player in the loop with the map function
+
+Card.js
+
+1 ) Display the career information in the loop with the map function
+2 ) Use React.Fragment component as a wrapper to display career information.
+
+> Objective_2: Display cards with basketball players with all information about them (full name, position, league, career history)
+
+App.js
+
+1 ) Display the Card component for every player in the loop with the map function
+— Call the map function on a players array
+— Inside of a function read player as a function parameter
+— Render the Card component and pass the player object inside as a prop
+— Don't forget to pass a unique key prop for the Card component (React documentation).
+
+Card.js
+
+1 ) Display the career information in the loop with the map function
+— Call the map function on a player.career array
+— Inside of a function read career as a function parameter
+— Render the Fragment component with a content provided in example
+2 ) Use React.Fragment component as a wrapper to display career information.
+— Only for Udemy exercises, not for real projects!!! Instead of doing import {Fragment} from "react"; and using it as <Fragment>...</Fragment> you should do import React from 'react'; and use fragment as <React.Fragment>...</React.Fragment>, otherwise you will have an errors and your content won't be rendered. (it's Udemy specific)
+— Don't forget to pass a unique key prop for the Fragment component.

@@ -1,0 +1,20 @@
+Practice Updating items in Array State
+= Updating items in Array State
+
+Objective: Every time whne the user clicks "Generate emojis", emojis icons should be updated.
+
+App.js
+
+1 ) Update emoji value in the emojis array for passes emoji id
+
+= Updating items in Array State
+
+Objective: Every time whne the user clicks "Generate emojis", emojis icons should be updated.
+
+App.js
+
+1 ) Update emoji value in the emojis array for passes emoji id
+
+— Use the setEmojis function to change the value of an emoji in the emojis array based on the given emoji id . Pass the previous state to the setEmojis function. Return a new emojis array where the emoji with the matching id gets updated to newEmoji.
+— To create the new array, use the map method on the emojis array.
+— To decide if you should return the new emoji or keep the old one, you can use: if/else statement or conditional (ternary) operator.

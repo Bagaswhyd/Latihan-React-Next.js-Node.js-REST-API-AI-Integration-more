@@ -1,0 +1,44 @@
+Practice Events & Conditional Rendering
+= Responding to Events
+
+Objective: When the user clicks on the day of the week, he should see an alert telling them what day of the week they have selected.
+
+App.js
+
+1 ) Pass the handleClick function as onClick prop into Button component Button.js
+1 ) Read the onClick prop in the component
+2 ) Handle button click event and pass the day into onClick function
+
+= Conditional Rendering
+
+Objective: The user should only be able to click on weekdays, the weekends should be displayed as text that the user can't click on.
+
+App.js
+
+1 ) Display 'Button' component only for Mon, Tue, Wed, Thu, Fri, for the rest display just text
+= Responding to Events
+Objective: When the user clicks on the day of the week, he should see an alert telling them what day of the week they have selected.
+
+App.js
+
+1 ) Pass the handleClick function as onClick prop into Button component
+— The syntax for passing props to the React component is similar to the HTML attributes syntax.
+
+Button.js
+
+1 ) Read the onClick prop in the component
+— Read React component props using function parameters
+2 ) Handle button click event and pass the day into onClick function
+— Use 'onClick' event to handle it. Also use arrow function to call 'onClick' function and pass 'day' into it
+
+= Conditional Rendering
+
+Objective: The user should only be able to click on weekdays, the weekends should be displayed as text that the user can't click on.
+
+App.js
+
+1 ) Display 'Button' component only for Mon, Tue, Wed, Thu, Fri, for the rest display just text
+— Use 'conditional (ternary) operator' (example: condition ? case A : case B)
+— To check whether a variable is equal to one of two values, you can use:
+    a) variable === "A" && variable === "B"
+    b) ["A", "B"].includes(variable)

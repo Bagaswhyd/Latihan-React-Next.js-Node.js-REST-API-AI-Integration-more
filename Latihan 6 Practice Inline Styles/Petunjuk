@@ -1,0 +1,16 @@
+Practice Inline Styles
+Objective: Style list of actors (with name and description) using inline styles.
+
+App.js
+
+1 ) Set styles for the List and Item properties within the styles object from the example above
+2 ) Apply styles to the ul and li HTML tags in the App component using the styles object.
+
+Objective: Style list of actors (with name and description) using inline styles.
+
+App.js
+
+1 ) Set styles for the List and Item properties within the styles object from the example above
+— Use a comma , instead of a semicolon ; at the end of each style.
+2 ) Apply styles to the ul and li HTML tags in the App component using the styles object.
+— Use the style HTML attribute to apply styles and pass a variable to it (remember to pass only the styling for a particular element).

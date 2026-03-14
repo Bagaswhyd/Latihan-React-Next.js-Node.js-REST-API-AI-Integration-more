@@ -1,0 +1,31 @@
+Practice Importing and Exporting Components
+> Objective_1: Display the text of the child component in the main component
+
+Children.js
+
+1 ) Define Children component
+2 ) Display Hi, I am Children component heading in the <h2> HTML tag
+3 ) Export Children component using named export
+
+App.js
+
+1 ) Import Children component from ./Children.js using named import
+2 ) Display Children component in the App component
+
+> Objective_2: Display the text of the child component in the main component
+
+Children.js
+
+1 ) Define Children component
+— React component it is a JavaScript function
+2 ) Display Hi, I am Children component heading in the <h2> HTML tag
+— Some functions may return result
+3 ) Export Children component using named export
+— Use reserved statement in JavaScript to do this (one word)
+
+App.js
+
+1 ) Import Children component from ./Children.js using named import
+— Use reserved statement in JavaScript to do this (one word)
+2 ) Display Children component in the App component
+— Syntax to display React component is similar to HTML tags syntax

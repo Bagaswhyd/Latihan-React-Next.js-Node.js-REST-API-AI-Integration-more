@@ -1,0 +1,19 @@
+Practice Markup and Variables in JSX
+> Objective_1: To display information about Joanne Rowling and her books. Also displays a button to buy these books.
+
+App.js
+
+1 ) Display author full name (example: Joanne Rowling) using variables for first and last name in the <h2> HTML tag
+2 ) Display author description using variable in the <p> HTML tag
+3 ) Add list using <ul> HTML tag
+4 ) Display first, second and third book names as a separate list items using variables in the <li> HTML tags
+5 ) Display button with text Buy Joanne's books using variable for author first name in the <button> HTML tag
+
+> Objective_2: To display information about Joanne Rowling and her books. Also displays a button to buy these books.
+
+App.js
+
+1 ) Display author full name (example: Joanne Rowling) using variables for first and last name in the <h2> HTML tag
+— Use special type of braces to render variables in the JSX markup (you can use multiple variables between text in the HTML tag, just wrap each variable into braces)
+4 ) Display first, second and third book names as a separate list items using variables in the <li> HTML tags
+— Every element in JavaScript Array has an index (counting starts from 0), use special braces to access to the particular item from Array

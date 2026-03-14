@@ -1,0 +1,18 @@
+Practice Updating Objects in State
+= Updating Objects in State
+
+Objective: When the user changes the width or height using sliders, the blue rectangle updates it's size.
+
+App.js
+
+1 ) Set new size using setSize function. Remember, only one dimension ("width" or "height") changed by one time.
+
+= Updating Objects in State
+
+Objective: When the user changes the width or height using sliders, the blue rectangle updates it's size.
+
+App.js
+
+1 ) Set new size using setSize function. Remember, only one dimension ("width" or "height") changed by one time.
+— Use a previous state argument in the setSize function to first unpack it into the new object, and only then set the property you want to update.
+— Use name variable as a prop key and value as a prop value.
